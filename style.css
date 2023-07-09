@@ -283,7 +283,7 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 675px){
     .logo{
         width: 140px;
     }
