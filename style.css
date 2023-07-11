@@ -129,11 +129,57 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    width: 75%;
+    font-size: 16px;
 }
 .tab-contents ul li span{
-    color: #b54769;
-    font-size: 14px;
+    color: #ff004f;
+    font-size: 20px;
 }
+.tab-contents ul li span.date{
+    color: #fff;
+}
+.bar-container {
+    font-size: 10px;
+    width: 75%;
+    background-color: #ddd;
+    border-radius: 20px;
+    padding: -4px 0;
+  }
+
+  .skills {
+    text-align: right;
+    padding-top: 1px;
+    color: white; 
+    background: linear-gradient(to bottom right,#f63e78,#ff004f);
+  }
+
+.skills.Python{
+    width: 90%; 
+    border-radius: 20px;
+    padding-right: 10px;
+} 
+.skills.Java{
+    width: 70%; 
+    border-radius: 20px;
+    padding-right: 10px;
+}
+.skills.HTML{
+    width: 50%; 
+    border-radius: 20px;
+    padding-right: 10px;
+} 
+.skills.Flutter{
+    width: 30%; 
+    border-radius: 20px;
+    padding-right: 10px;
+} 
+.skills.C{
+    width: 30%; 
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
 .tab-contents{
     display: none;
 }
@@ -285,7 +331,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 675px){
     .logo{
-        width: 140px;
+        width: 180px;
     }
     #header{
         object-fit: cover;
@@ -293,10 +339,20 @@ nav .fa-solid{
     }
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        margin-right: 15%;
+        font-size: 18px;
+
+        /* text-shadow: 1px 1px 5px white; */
+        
+        background:border-box #ffffff30;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 1px 1px 5px #ffffff10;
+        
     }
     .header-text h1{
         font-size: 30px;
+        
     }
     nav .fa-solid{
         display: block;
@@ -342,6 +398,13 @@ nav .fa-solid{
         left: 25px;
         cursor: pointer;
     }
+    .tab-contents ul li{
+        width: 100%;
+    }
+    .bar-container{
+        width: 100%;
+    }
+
     .sidemenu a{
         color: #fff;
     }
